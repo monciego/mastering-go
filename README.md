@@ -25,6 +25,16 @@ go mod init mastering-go
 - Variables serve as containers for storing values, allowing you to reference the stored values throughout your application.
 - Constants are similar to variables, but their values cannot be changed once set.
 
+Shorthand syntax
+`:=` is a shorthand syntax for declaring and initializing variables. It's a part of the short variable declaration syntax. With `:=`, you can declare a variable and assign a value to it, and Go will automatically infer the data type of the variable based on the assigned value.
+
+```go
+  name := "John"      // inferred as string
+  age := 30           // inferred as int
+  pi := 3.14159       // inferred as float64
+  isActive := true    // inferred as bool
+```
+
 ## Formatting Output
 
 1. Printing Variables:
